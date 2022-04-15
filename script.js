@@ -7,14 +7,14 @@ var imagem = window.document.getElementById("imagem")
 
 if (hora >= 6 && hora < 12) {
   texto.innerHTML = `<h2>Agora são ${hora} horas da manhã.</h2>`
-  imagem.innerHTML = `<img src="imagens/morning.jpg" alt="">`
+  imagem.innerHTML = `<img src="imagens/morning.jpg" alt="Foto do dia">`
 } else if (hora >= 12 && hora < 18) {
   texto.innerHTML = `<h2>Agora são ${hora} horas da tarde.</h2>`
-  imagem.innerHTML = `<img src="imagens/afternoon.jpg" alt="">`
+  imagem.innerHTML = `<img src="imagens/afternoon.jpg" alt="Foto do dia">`
 } else if (hora >= 18 && hora <= 23) {
   texto.innerHTML = `<h2>Agora são ${hora} horas da noite.</h2>`
-  imagem.innerHTML = `<img src="imagens/night.jpg" alt="">`
+  imagem.innerHTML = `<img src="imagens/night.jpg" alt="Foto do dia">`
 } else if (hora >= 0 && hora < 6){
   texto.innerHTML = `<h2>Agora são ${hora} horas da madrugada.</h2>`
-  imagem.innerHTML = `<img src="imagens/night.jpg" alt="">`
+  imagem.innerHTML = `<img src="imagens/night.jpg" alt="Foto do dia">`
 }
